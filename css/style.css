@@ -6,12 +6,31 @@ body{
 .navbar{
 
 padding: 5px 20px;
-box-shadow: 0 2px 5px 1px #d2a679;
+background-color: #F8F3D9;
 }
 .nav-logo{
 height: 100px;
 }
 .nav-links{
     display: inline-block;
-    vertical-align: middle;
+    font-size: 25px;
 }
+.nav-menu{
+margin: 190px;
+text-decoration: none;
+.nav-menu:hover{
+    
+}
+}
+.heading{
+    display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: black;
+            font-size: 20px;
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+            background-color: blanchedalmond;
+}
+           
