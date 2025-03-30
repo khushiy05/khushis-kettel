@@ -42,3 +42,7 @@ text-decoration: none;
             padding: 50px;
             text-align: center;
 }
+.nav-menu-selected{
+    border-bottom: 2px dashed black;
+    fon
+}
