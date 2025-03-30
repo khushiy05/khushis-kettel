@@ -18,9 +18,7 @@ height: 100px;
 .nav-menu{
 margin: 190px;
 text-decoration: none;
-.nav-menu:hover{
-    
-}
+
 }
 .heading{
     display: flex;
