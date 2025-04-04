@@ -4,7 +4,6 @@ body{
     padding: 0;
 }
 .navbar{
-
 padding: 5px 20px;
 background-color: #F8F3D9;
 }
@@ -18,8 +17,8 @@ height: 100px;
 .nav-menu{
 text-decoration: none;
 margin-left: 230px;
-
-
+color: #735557;
+text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
 }
 .heading{
     display: flex;
@@ -42,8 +41,9 @@ margin-left: 230px;
     background: #fff3e0;
             padding: 50px;
             text-align: center;
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
 }
 .nav-menu-selected{
-    border-bottom: 2px dashed black;
-   
+    border-bottom: 3px dashed black;
+    font-weight: bold;
 }
