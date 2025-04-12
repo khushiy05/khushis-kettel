@@ -13,8 +13,44 @@
     <div>
         <form>
             <label for="inputFullName">Enter FullName: </label>
-            <input type="text" id="inputFullName" />
+            <input type="text" id="inputFullName" required />
+            <br/><br/>
+            <label for="inputEmail">Enter Email:</label>
+            <input type="email" id="inputEmail" required />
+            <br/><br/>
+            <label for="inputmobilNumber">Enter mobile Number:</label>
+            <input type="number" id="inputmobilNumber" required />
+            <br/><br/>
+            <label for="selectitem">Go ahead and pick your favorite drink!</label> <br />
+            <select id="selectitem">
+        <option>Espresso</option>
+        <option>Cappuccino</option>
+        <option>Latte</option>
+        <option>Mocha</option>
+        <option>Iced Coffee</option>
+        <option>Chai Latte</option>
+           </select>
+           <br/><br/>
+           <label for="selectpayment">What size would you like</label> <br />
+            <select id="selectpayment">
+                <option>🥤Small (250ml)</option>
+        <option>🧃Medium (350ml)</option>
+        <option>🧋Large (500ml)</option>
+    </select>
+        <br/><br/>
+           <label for="selectpayment">You can pay however it’s easiest for you—card, cash, or mobile!</label> <br />
+            <select id="selectpayment">
+                <option>Cash</option>
+        <option>Credit/Debit Card </option>
+        <option>UPI</option>
+        <option>Mobile Wallets</option>
+        <option>QR Code Payment</option>
+    </select>
+        <br/><br/>
+
+            <input type="submit" value="Order Now" />
           </form>
+
     </div>
 </body>
 </html>
